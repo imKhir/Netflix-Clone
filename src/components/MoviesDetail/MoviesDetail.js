@@ -1,8 +1,8 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { useDispatch } from 'react-redux';
 import moment from 'moment';
-import { AiFillCloseCircle, AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineClose } from 'react-icons/ai';
 
 import { setMovieDetail } from '../store/actions';
 
@@ -55,10 +55,10 @@ function MoviesDetail(props) {
 }
 export default MoviesDetail;
 
-const fadeIn = keyframes`
-    0%: {background: rgba(0, 0, 0,0}
-    100% {background: rgba(0, 0, 0, 0.6)
-`;
+// const fadeIn = keyframes`
+//     0%: {background: rgba(0, 0, 0,0}
+//     100% {background: rgba(0, 0, 0, 0.6)
+// `;
 
 const MoviesDetailModal = styled.div`
     .backdrop {

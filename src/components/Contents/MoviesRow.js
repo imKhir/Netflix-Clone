@@ -109,6 +109,7 @@ function MoviesRow(props) {
                                 </div>
                             );
                         }
+                        return null;
                     })}
             </MovieSlider>
             <div className={`btnLeft ${isNetflix && 'isNetflix'}`} onClick={handleScrollLeft}>

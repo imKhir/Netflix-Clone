@@ -49,6 +49,7 @@ function SearchMovies(props) {
                                 </div>
                             );
                         }
+                        return null;
                     })}
                 </div>
             ) : (
